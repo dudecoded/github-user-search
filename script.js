@@ -17,6 +17,7 @@ form.addEventListener("submit", async function (event) {
         if (!response.ok) {
             throw new Error("GitHub user not found");
         }
+
         const data = await response.json();
 
         document.querySelector("#profile-image").src = data.avatar_url;
