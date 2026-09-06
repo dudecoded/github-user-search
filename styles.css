@@ -47,13 +47,10 @@ font-style: oblique;
     display: block;
     margin:0 auto;
 object-fit: contain;
-display: block;
-margin: 0 auto;
 
   filter:
         drop-shadow(0 0 8px rgba(255, 255, 255, 0.35))
-        drop-shadow(0 0 20px rgba(35, 134, 54, 0.35))
-        contrast(100px);
+        drop-shadow(0 0 20px rgba(35, 134, 54, 0.35));
     transition: 0.3s;
        
 }
